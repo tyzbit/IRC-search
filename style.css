@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:#222222;
+}
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	text-align:center;
+	color:GoldenRod;
+	width:340px;
+	background-color:#444555;
+	margin-left:auto;
+	margin-right:auto;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+}
+a{
+	color:GoldenRod;
+	background-color:#444444;
+	-webkit-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	border-radius:2px;
+	margin-bottom: auto;
+}
+.text{
+	width:85%;
+}
+#searchbox{
+	font-size:18px;
+	text-align:center;
+	text-shadow:none;
+	background-color:#444555;
+	margin-left:0;
+	margin-right:auto;
+	width:40%;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+}
+#results{
+	color:GoldenRod; 
+	width:100%;
+	height:60%;
+	overflow-y:scroll;
+	overflow-x: hidden;
+	background:#333333;
+	margin-bottom:1%;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+}
+#howto{
+	float: right;
+}
+#day{
+	font-size:35px;
+	text-align:center;
+	background-color:#444555;
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	-webkit-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0px 0 10px rgba(0,0,0,0.5);
+}
+#log{
+	font-size:20px;
+	text-align:left;
+}
+#gentime{
+	font-size:12px;
+	position:absolute;
+	text-align:right;
+	bottom:0px;
+	right:0px;
+}
