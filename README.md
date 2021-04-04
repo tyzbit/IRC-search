@@ -3,6 +3,8 @@ IRC-search
 
 PHP script to search through IRC logs
 
+## This repository is archived and unsupported.  Code here is for historical and learning purposes.
+
 Prerequisites
 =============
 
